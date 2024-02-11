@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    font-size: 22px;
+}
+body{
+    background-color: rgb(58, 58, 57);
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+p, h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.navbar{
+    background-color: rgb(10, 10, 10);
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 90px;
+}
+
+.link{
+    display: flex;
+    flex-wrap: wrap;
+   list-style: none ;
+   color: white;
+}
+.linkitem{
+    margin: 10px 15px; 
+}
+
+
+
+/* here main section starts */
+
+.landing{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    /* height: 90vh; */
+    /* margin-bottom: 20vh; */
+}
+.left{
+    flex-basis: 50%;
+    
+    padding: 30vh 0 30vh 10vw;
+}
+.left p{
+    font-size: 35px;
+}
+.right{
+    flex-basis: 50%;
+    padding: 5vh 10vw 5vh 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.right img{
+    width: 70%;
+    
+}
+
+/* About section below main landing  */
+
+.about{
+    box-shadow: 2px 0px 10px 2px rgb(27, 27, 27);
+    background-color: rgb(58, 58, 55);
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   padding: 15vh 5vw 15vh 5vw;
+}
+.aboutcontent{
+    max-width: 60%;
+    text-align: center;
+}
+
+
+/* Skills section */
+
+
+.skills{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+#skillscontent{
+    width: 40%;
+}
+#skillscontent2{
+    margin: auto;
+}
+
+.cvbtn{
+    display: inline-block;
+    margin:  7vh 1vw;
+    padding: 1vh 2vh;
+    /* border: 1px solid rgb(238, 237, 237); */
+    border-radius: 50px;
+    background: rgb(37, 38, 39);
+    width: 10vw;
+    color: aliceblue;
+}
+.cvbtn:hover{
+    cursor:pointer;
+    color: rgb(7, 7, 7);
+    background: rgb(50, 51, 51);
+}
+
+.progressbar{
+    background-color: rgb(53, 51, 51);
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px 0 10px 0;
+}
+.barpercent{
+    background-color: aqua;
+    border-radius: 10px;
+    width: 40%;
+    height: 20px;
+    margin: 2px;
+}
+
+
+/* Education Section */
+
+.education{
+    background-color: rgb(58, 58, 55);
+    box-shadow: 2px 0px 10px 2px rgb(27, 27, 27);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15vh 5vw 15vh 5vw;
+}
+
+.edu{
+    background-color: rgb(37, 38, 39);
+    margin: 4vh 0;
+    padding: 3vh;
+    
+}
+
